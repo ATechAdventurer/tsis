@@ -1,5 +1,5 @@
 {
-  "name": "tsis",
+  "name": "tsis-cli",
   "version": "1.0.0",
   "description": "TSIS is The Scientific Instagram Scraper a tool for scraping instagram for hashtags and converting it to a easily digestable csv",
   "main": "bin/index.js",
