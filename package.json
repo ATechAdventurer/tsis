@@ -14,8 +14,8 @@
     "url": "git+https://github.com/ATechAdventurer/tsis.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Cameron Steele (ATechAdventurer)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ATechAdventurer/tsis/issues"
   },
