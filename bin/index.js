@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-require('dotenv').config();
 const fs = require('fs');
 const chalk = require('chalk');
 const jsonCsv = require('json-2-csv');
@@ -11,6 +10,11 @@ program
     .option('-h, --hashtag [tag]', 'Set the Hashtag you want to scrape for')
     .option('-c, --count [number]', 'The number of posts you want')
     .parse(process.argv);
+
+if (!program.hashtag || !program.count) {
+    console.log("Missing Arguments -h and/or -c");
+    return;
+}
 
 const hashtagSearch = createApi("hashtag", program.hashtag, {
     total: program.count,

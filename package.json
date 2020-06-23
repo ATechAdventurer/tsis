@@ -1,31 +1,34 @@
 {
-  "name": "tsis-cli",
-  "version": "1.0.0",
-  "description": "TSIS is The Scientific Instagram Scraper a tool for scraping instagram for hashtags and converting it to a easily digestable csv",
-  "main": "bin/index.js",
-  "bin": {
-    "tsis": "bin/index.js"
-  },
-  "scripts": {
-    "start": "node bin/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ATechAdventurer/tsis.git"
-  },
-  "keywords": [],
-  "author": "Cameron Steele (ATechAdventurer)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ATechAdventurer/tsis/issues"
-  },
-  "homepage": "https://github.com/ATechAdventurer/tsis#readme",
-  "dependencies": {
-    "chalk": "^4.1.0",
-    "cli-progress": "^3.8.2",
-    "commander": "^5.1.0",
-    "dotenv": "^8.2.0",
-    "instamancer": "^3.3.1",
-    "json-2-csv": "^3.7.3"
+    "name": "tsis",
+    "version": "1.0.01",
+    "description": "TSIS is The Scientific Instagram Scraper a tool for scraping instagram for hashtags and converting it to a easily digestable csv",
+    "main": "bin/index.js",
+    "bin": {
+      "tsis": "bin/index.js"
+    },
+    "scripts": {
+      "start": "node bin/index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ATechAdventurer/tsis.git"
+    },
+    "keywords": [],
+    "author": "Cameron Steele (ATechAdventurer)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ATechAdventurer/tsis/issues"
+    },
+    "homepage": "https://github.com/ATechAdventurer/tsis#readme",
+    "dependencies": {
+      "chalk": "^4.1.0",
+      "cli-progress": "^3.8.2",
+      "commander": "^5.1.0",
+      "dotenv": "^8.2.0",
+      "instamancer": "^3.3.1",
+      "json-2-csv": "^3.7.3"
+    },
+    "engines": {
+      "node": ">=10.15.0"
+    }
   }
-}
